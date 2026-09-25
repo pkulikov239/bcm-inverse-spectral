@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and the archived code."
+title: 'Code for "An inverse spectral problem for the wave equation with a varying Robin parameter at the boundary"'
+authors:
+  - family-names: Hannukainen
+    given-names: Antti
+  - family-names: Kulikov
+    given-names: Petr
+  - family-names: Lassas
+    given-names: Matti
+  - family-names: Oksanen
+    given-names: Lauri
+license: MIT
+repository-code: "https://github.com/pkulikov239/bcm-inverse-spectral"
+version: 1.0
+date-released: 2026-09-25
