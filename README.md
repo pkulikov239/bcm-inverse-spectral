@@ -6,7 +6,7 @@ Code and numerical experiments for the paper
 
 > A. Hannukainen, P. Kulikov, M. Lassas, L. Oksanen,
 > *An inverse spectral problem for the wave equation with a varying Robin parameter at the boundary*.
-> Preprint, 2026.
+> arXiv:2610.13629, 2026. https://arxiv.org/abs/2610.13629
 
 The wave speed $c$ of a one-dimensional wave equation on $(0,1)$ is reconstructed from two
 spectra: the eigenvalues of a Neumann–Dirichlet problem and of a Robin–Dirichlet problem with
@@ -65,13 +65,23 @@ The results in the paper were obtained with version 1.0 of this repository,
 
 ## Citation
 
-If you use this code, please cite the paper above and the archived code:
+If you use this code, please cite the paper and the archived code:
 
 > A. Hannukainen, P. Kulikov, M. Lassas, L. Oksanen, *Code for "An inverse spectral problem for
 > the wave equation with a varying Robin parameter at the boundary"*, Zenodo,
 > [doi:10.5281/zenodo.22961134](https://doi.org/10.5281/zenodo.22961134).
 
 ```bibtex
+@misc{hannukainen2026inverse,
+  author        = {Hannukainen, Antti and Kulikov, Petr and Lassas, Matti and Oksanen, Lauri},
+  title         = {An inverse spectral problem for the wave equation with a varying Robin parameter at the boundary},
+  year          = {2026},
+  eprint        = {2610.13629},
+  archivePrefix = {arXiv},
+  primaryClass  = {math.AP},
+  doi           = {10.48550/arXiv.2610.13629},
+  url           = {https://arxiv.org/abs/2610.13629}
+}
 @software{bcm_inverse_spectral,
   author    = {Hannukainen, Antti and Kulikov, Petr and Lassas, Matti and Oksanen, Lauri},
   title     = {Code for "An inverse spectral problem for the wave equation with a varying Robin parameter at the boundary"},
